@@ -24,6 +24,8 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limit
 - [Mbah Helmi](https://github.com/helmiau)
 - [Mbah Wegare](https://github.com/wegare123)
 
+mohon ijin ya msater-master ku sekalian,ijin remod hehehe
+
 ### dan tentunya tidak lupa untuk guru saya yang satu ini :
 - [Mbah Teguh Surya Mungaran/Alkhanet](https://github.com/alkhanet26)
 yang selalu saya tanya dan ngajarin saya setiap hari 
