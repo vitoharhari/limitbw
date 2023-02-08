@@ -2,6 +2,13 @@
 - limit bandwidth for openwrt router device
 - lite version [mulimiter](https://github.com/tegohsx/mulimiter)
 
+
+### Dependencies - Paket pendukung
+- iptables
+- iptables-mod-hashlimit
+- iptables-mod-iprange
+- bash
+
 ### Default Usage - Pemakaian Dasar
 - paste Link instalasi **``LIMITBW``** dibawah ini ke terminal kalian:
 ```
