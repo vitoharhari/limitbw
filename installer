@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+ver=$(grep VERSION /etc/os-release | cut -d'"' -f2 | awk 'NR==1' | cut -d'.' -f1)
+
+if [ $ver = "22" ]; then
+	opkg update && opkg install bash iptables-mod-hashlimit iptables-mod-iprange iptables-zz-legacy
+else
+	opkg update && opkg install bash iptables-mod-hashlimit iptables-mod-iprange iptables
+fi
+wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/limitbw" -O /usr/bin/limitbw && chmod 777 /usr/bin/limitbw
+mkdir /root/resipt/
+touch /root/resipt/ipt.txt
