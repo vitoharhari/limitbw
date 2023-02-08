@@ -5,7 +5,7 @@
 ### Default Usage - Pemakaian Dasar
 - paste Link instalasi **``LIMITBW``** dibawah ini ke terminal kalian:
 ```
-wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/installer" -O /usr/bin/installer && chmod +x /usr/bin/installer && installer && rm /usr/bin/installer
+wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/installer" -O /usr/bin/installer && chmod +x /usr/bin/installer && installer && rm /usr/bin/installer && limitbw
 ```
 
 - cara pakai :
