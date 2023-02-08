@@ -10,4 +10,5 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limit
 
 - cara pakai :
 **``ketik limitbw untuk menampilkan opsi-opsi ``**
+
 **``ketik limitbw 1 untuk melimit bandwidth yang di inginkan ``**
