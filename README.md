@@ -8,7 +8,7 @@
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/installer" -O /usr/bin/installer && chmod +x /usr/bin/installer && installer && rm /usr/bin/installer && limitbw
 ```
 
-- cara pakai :
+### cara pakai :
  
 - ketik limitbw untuk menampilkan opsi-opsi
 
@@ -17,4 +17,15 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limit
 - ketik limitbw 2 untuk melihat settingan limit bandwidth yang sudah disimpan sebelumnya
 
 - ketik limitbw 3 untuk menghapus settingan limit bandwidth yang sudah disimpan sebelumnya
+
+### spesial thank's to :
+- [Mbah Teguh](https://github.com/tegohsx)
+- [Mbah Rayhanbone](https://github.com/rayhanbone)
+- [Mbah Helmi](https://github.com/helmiau)
+- [Mbah Wegare](https://github.com/wegare123)
+
+### dan tentunya tidak lupa untuk guru saya yang satu ini :
+- [Mbah Teguh Surya Mungaran/Alkhanet](https://github.com/alkhanet26)
+yang selalu saya tanya dan ngajarin saya setiap hari 
+
 
