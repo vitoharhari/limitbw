@@ -9,6 +9,12 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limit
 ```
 
 - cara pakai :
+- 
 **``ketik limitbw untuk menampilkan opsi-opsi ``**
 
 **``ketik limitbw 1 untuk melimit bandwidth yang di inginkan ``**
+
+**``ketik limitbw 2 untuk melihat settingan limit bandwidth yang sudah disimpan sebelumnya ``**
+
+**``ketik limitbw 3 untuk menghapus settingan limit bandwidth yang sudah disimpan sebelumnya ``**
+
