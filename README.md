@@ -8,6 +8,10 @@
 - `iptables-mod-hashlimit`
 - `iptables-mod-iprange`
 
+### Improve 
+- Pengaturan akan otomatis dijalankan saat reboot.
+- Pengaturan bandwith yang tersimpan tidak akan hilang saat reboot.
+
 ### Instalasi
 
 Jalankan perintah dibawah ini ke terminal untuk instalasi:
