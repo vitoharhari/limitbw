@@ -2,6 +2,8 @@
 - limit bandwidth for openwrt router device
 - lite version [mulimiter](https://github.com/tegohsx/mulimiter)
 
+# improve 
+- saat di reboot settingan limit bw tidak akan hilang karena sudah di automisasi kan di rc.local
 
 ### Dependencies - Paket pendukung
 - iptables
