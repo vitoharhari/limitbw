@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 clear
 ipr2="$(cat /root/resipt/ipt.txt |grep -i ipr | cut -d= -f2 | head -n1)"
 spd2="$(cat /root/resipt/ipt.txt |grep -i spd | cut -d= -f2 | head -n1)"
