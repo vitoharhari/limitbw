@@ -23,7 +23,7 @@ else
 	if [[ $(opkg list-installed | grep -c "^$pkgname -") == "0" ]]; then $oIns $pkgname; fi
 fi
 sleep 2
-cek=$(find /usr/bin/)
+cek=$(find /usr/bin)
 if [[ $cek == *"limitbw"* ]]; then
 limitbw 3
 echo -e "menghapus settingan limitbw"
