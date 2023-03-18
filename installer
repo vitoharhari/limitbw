@@ -23,11 +23,11 @@ else
 	if [[ $(opkg list-installed | grep -c "^$pkgname -") == "0" ]]; then $oIns $pkgname; fi
 fi
 sleep 2
-#cek=$(find /usr/bin)
-#if [[ $cek == *"limitbw"* ]]; then
+cek=$(cat /usr/bin/limitbw | grep VERSION)
+if [[ $cek == *"VERSION"* ]]; then
 limitbw 3
 echo -e "menghapus settingan limitbw"
-#fi
+fi
 sleep 2
 # Downloading binaries
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/limitbw" -O /usr/bin/limitbw && chmod 777 /usr/bin/limitbw
