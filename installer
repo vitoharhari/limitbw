@@ -25,7 +25,7 @@ fi
 sleep 2
 cek=$(find /usr/bin/)
 if [[ $cek == *"limitbw"* ]]; then
-bash /usr/bin/limitbw 3
+limitbw 3
 echo -e "menghapus settingan limitbw"
 fi
 sleep 2
