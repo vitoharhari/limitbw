@@ -6,8 +6,8 @@ echo "Check Versi Limit BW"
 sleep 3
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/versi_limitbw" -O /tmp/versi_limitbw
 clear
-an=$(grep '* VERSION ' /tmp/versi_limitbw | cut -d '*' -f2)
-in=$(cat /usr/bin/limitbw | grep '* VERSION ' | cut -d '*' -f4 | awk 'NR==1')
+an=$(grep '* VERSION ' /tmp/versi_limitbw | cut -d '*' -f2 | cut -d ' ' -f3)
+in=$(cat /usr/bin/limitbw | grep '* VERSION ' | cut -d '*' -f4 | awk 'NR==1' | cut -d ' ' -f3)
 if [[ $an == $in ]]; then
 echo -e "Limit BW sudah Versi terbaru"
 sleep 10
