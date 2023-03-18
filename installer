@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 ver=$(grep VERSION /etc/os-release | cut -d'"' -f2 | awk 'NR==1' | cut -d'.' -f1)
 
 # Updating OPKG
