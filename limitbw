@@ -165,6 +165,12 @@ startupoff;exit
 ;;
 esac
 
+case $1 in
+"u")
+sh /usr/bin/limitup
+;;
+esac
+
 #-- colors --#
 #R='\e[1;31m' #RED
 #G='\e[1;32m' #GREEN
@@ -203,6 +209,7 @@ echo -e "$DB **$G ATUR LIMIT                           * limitbw 1 $DB**"
 echo -e "$DB **$G LIHAT PENGATURAN TERSIMPAN           * limitbw 2 $DB**"
 echo -e "$DB **$G HAPUS PENGATURAN TERSIMPAN           * limitbw 3 $DB**"
 echo -e "$DB **$G MATIKAN STARTUP LIMITBW              * limitbw 4 $DB**"
+echo -e "$DB **$G UPDATE LIMITBW                       * limitbw u $DB**"
 echo -e "$DB **$G KELUAR DARI MENU                     *   exit    $DB**"
 echo -e "$DB ******************************************************"
 echo -e "$DB **$Y             LIMIT BW BY * VITO H.S *             $DB**"
