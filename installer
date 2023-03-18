@@ -24,9 +24,9 @@ else
 	if [[ $(opkg list-installed | grep -c "^$pkgname -") == "0" ]]; then $oIns $pkgname; fi
 fi
 sleep 2
-cek=$(cat /usr/bin/limitbw | grep VERSION)
+cek=$(cat /usr/bin/limitbw | grep -o VERSION)
 
-if [[ $cek == *"VERSION"* ]]; then
+if [[ $cek == "VERSION" ]]; then
 echo ""
 else
 limitbw 3
