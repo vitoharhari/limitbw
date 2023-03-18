@@ -25,7 +25,6 @@ else
 fi
 sleep 2
 cek=$(cat /usr/bin/limitbw | grep -o VERSION)
-
 if [[ $cek == "VERSION" ]]; then
 echo ""
 else
