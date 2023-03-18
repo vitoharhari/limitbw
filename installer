@@ -32,6 +32,8 @@ fi
 sleep 2
 # Downloading binaries
 wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/limitbw" -O /usr/bin/limitbw && chmod 777 /usr/bin/limitbw
+wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/limitup" -O /usr/bin/limitup && chmod 777 /usr/bin/limitup
+wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limitbw/main/versi_limitbw" -O /tmp/versi_limitbw
 mkdir /root/resipt/
 touch /root/resipt/ipt.txt
 touch /root/resipt/startup
