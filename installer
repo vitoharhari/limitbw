@@ -37,3 +37,4 @@ touch /root/resipt/ipt.txt
 touch /root/resipt/startup
 echo "" > /root/resipt/startup
 touch /root/resipt/dtb
+
