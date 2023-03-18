@@ -28,4 +28,5 @@ wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/limit
 mkdir /root/resipt/
 touch /root/resipt/ipt.txt
 touch /root/resipt/startup
+echo "" > /root/resipt/startup
 touch /root/resipt/dtb
